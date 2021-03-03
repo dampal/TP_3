@@ -39,6 +39,7 @@ void Recorrido::mostrar() {
         columna = caminoTomado[i] % MAX_COLUMNA;
 
         cout << "-> [" << fila << "," << columna << "] " ;
+        i++;
     }
 
 }
